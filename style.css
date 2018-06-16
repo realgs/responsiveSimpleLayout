@@ -46,11 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Code comes below */
+/* ---------- Actual code comes below ---------- */
 
 body {
 	background-color: lightgray;
 }
+
 .wrapper {
 	width: 100%;
 	background-color: #feecec;
@@ -91,14 +92,15 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+
 	.wrapper {
 		width: 100%;
 		margin: 0 auto;
-		/*padding: 0.02px 0;*/
 	}
 }
 
 @media only screen and (min-width: 900px) {
+
 	.wrapper {
 		width: 100%;
 		margin: 0 auto;
@@ -106,44 +108,32 @@ body {
 	}
 
 	.pink {
-		/*width: 46%;*/
 	    display: inline-block;    
 	    position: relative; 
 		margin: 8px 8px 8px 16px;
 		width: -webkit-calc(50% - 36px);
 	    width: calc(50% - 36px);
 		max-width: 564px;
-
 	}
 
 	.blue {
-		/*width: 46%;*/
 	    display: inline-block;    
 	    position: relative;
 		margin: 8px 16px 8px 8px;
 	    width: -webkit-calc(50% - 36px);
 		max-width: 564px;
 	}
+
 	div #seven {
-		/*width: -webkit-calc(100% - 150px);*/
 		width: 100%;
 		margin: 8px 16px 8px 16px;
 		max-width: calc( 100% - 44px);
 	}
-/*
-	.up{
-	  margin: 8px 8px 8px 16px;
-	}
-
-	.down{
-	  margin: 8px 8px 8px 16px;
-	}*/
 }
 
 @media only screen and (min-width: 1200px) {
 
 	.pink {
-		/*width: 46%;*/ 
 		margin: 8px 8px 8px 8px;
 		width: -webkit-calc(33.33333% - 33.33px);
 	    width: calc(33.33333% - 33.33px);
@@ -151,18 +141,17 @@ body {
 	}
 
 	.blue {
-		/*width: 46%;*/
 		margin: 8px 8px 8px 8px;
 	    width: -webkit-calc(33.33333% - 33.33px);
 		max-width: 478px;
 	}
 
 	div #seven {
-		/*width: -webkit-calc(100% - 150px);*/
 		width: 100%;
 		margin: 8px 16px 8px 16px;
 		max-width: calc( 100% - 44px);
 	}
+
 	div #one, #four {
 		margin: 8px 8px 8px 16px;
 	}
@@ -178,10 +167,12 @@ body {
 		margin: 8px 8px 8px 8px;
 		width: 343px;
 	}
+
 	div #seven, #six, #five {
 		margin: 8px 8px 8px 8px;
 		width: 466.66px;
 	}
+
 	div #one, #five {
 		margin: 8px 8px 8px 16px;
 	}
