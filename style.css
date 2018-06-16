@@ -107,8 +107,6 @@ body {
 
 	.pink {
 		/*width: 46%;*/
-		/*float: left;*/
-		/*display: block;*/
 	    display: inline-block;    
 	    position: relative; 
 		margin: 8px 8px 8px 16px;
@@ -120,12 +118,9 @@ body {
 
 	.blue {
 		/*width: 46%;*/
-/*		float: right;
-		display: block;*/
 	    display: inline-block;    
 	    position: relative;
 		margin: 8px 16px 8px 8px;
-		max-width: 330px;
 	    width: -webkit-calc(50% - 36px);
 		max-width: 564px;
 	}
@@ -140,15 +135,31 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-	.wrapper {
-		width: 100%;
-		margin: 0 auto;
+
+	.pink {
+		/*width: 46%;*/ 
+		margin: 8px 8px 8px 8px;
+		width: -webkit-calc(33.33333% - 33.33px);
+	    width: calc(33.33333% - 33.33px);
+		max-width: 478px;
+
+	}
+
+	.blue {
+		/*width: 46%;*/
+		margin: 8px 8px 8px 8px;
+	    width: -webkit-calc(33.33333% - 33.33px);
+		max-width: 478px;
+	}
+
+	div .pink .down {
+		/*width: -webkit-calc(100% - 150px);*/
+		width: 700px;
 	}
 }
 
 @media only screen and (min-width: 1500px) {
 	.wrapper {
 		width: 1500px;
-		margin: 0 auto;
 	}
 }
