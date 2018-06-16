@@ -151,19 +151,33 @@ body {
 		max-width: 478px;
 	}
 
-	div #pinkdown {
+	div #seven {
 		/*width: -webkit-calc(100% - 150px);*/
 		width: 100%;
 		margin: 8px 16px 8px 16px;
 		max-width: calc( 100% - 44px);
 	}
-	div #pinkup, #middleBlue {
+	div #one, #four {
 		margin: 8px 8px 8px 16px;
 	}
 }
 
 @media only screen and (min-width: 1500px) {
+	
 	.wrapper {
 		width: 1500px;
 	}
+
+	div #one, #two, #three, #four {
+		margin: 8px 8px 8px 8px;
+		width: 343px;
+	}
+	div #seven, #six, #five {
+		margin: 8px 8px 8px 8px;
+		width: 466.66px;
+	}
+	div #one, #five {
+		margin: 8px 8px 8px 16px;
+	}
+
 }
