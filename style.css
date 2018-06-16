@@ -142,7 +142,6 @@ body {
 		width: -webkit-calc(33.33333% - 33.33px);
 	    width: calc(33.33333% - 33.33px);
 		max-width: 478px;
-
 	}
 
 	.blue {
@@ -152,9 +151,14 @@ body {
 		max-width: 478px;
 	}
 
-	div .pink .down {
+	div #pinkdown {
 		/*width: -webkit-calc(100% - 150px);*/
-		width: 700px;
+		width: 100%;
+		margin: 8px 16px 8px 16px;
+		max-width: calc( 100% - 44px);
+	}
+	div #pinkup, #middleBlue {
+		margin: 8px 8px 8px 16px;
 	}
 }
 
