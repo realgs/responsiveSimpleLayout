@@ -54,6 +54,8 @@ body {
 
 .wrapper {
 	width: 100%;
+	min-width: 334px;
+	margin: 0 auto;
 	background-color: #feecec;
 	padding: 16px 0;
 	font-size: 0;
@@ -91,14 +93,6 @@ body {
   margin: 16px 16px 0 16px;
 }
 
-@media only screen and (min-width: 600px) {
-
-	.wrapper {
-		width: 100%;
-		margin: 0 auto;
-	}
-}
-
 @media only screen and (min-width: 900px) {
 
 	.wrapper {
@@ -134,16 +128,9 @@ body {
 
 @media only screen and (min-width: 1200px) {
 
-	.pink {
+	.pink, .blue {
 		margin: 8px 8px 8px 8px;
 		width: -webkit-calc(33.33333% - 33.33px);
-	    width: calc(33.33333% - 33.33px);
-		max-width: 478px;
-	}
-
-	.blue {
-		margin: 8px 8px 8px 8px;
-	    width: -webkit-calc(33.33333% - 33.33px);
 	    width: calc(33.33333% - 33.33px);
 		max-width: 478px;
 	}
